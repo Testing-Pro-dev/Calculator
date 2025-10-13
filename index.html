@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ <html>
+  
+   <head>
+      <title>Calculator App</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   
+   <body>
+     <h1 id="myh1">Calculator App</h1>
+<h4 id="myh4">Made by Katakuri</h4>
+<input type="text" id="display" readonly>
+
+<div class="myBtn">
+  <button class="calc-btn" onclick="clearDisplay()">AC</button>
+  <button class="calc-btn" onclick="calValue('()')">()</button>
+  <button class="calc-btn" onclick="calValue('.')">.</button>
+  <button class="calc-btn" onclick="calValue('%')">%</button>
+  <button class="calc-btn" onclick="deleteLast()">del</button>
+  <button class="calc-btn" onclick="calValue('0')">0</button>
+  <button class="calc-btn" onclick="calValue('1')">1</button>
+  <button class="calc-btn" onclick="calValue('2')">2</button>
+  <button class="calc-btn" onclick="calValue('3')">3</button>
+  <button class="calc-btn" onclick="calValue('4')">4</button>
+  <button class="calc-btn" onclick="calValue('5')">5</button>
+  <button class="calc-btn" onclick="calValue('6')">6</button>
+  <button class="calc-btn" onclick="calValue('7')">7</button>
+  <button class="calc-btn" onclick="calValue('8')">8</button>
+  <button class="calc-btn" onclick="calValue('9')">9</button>
+  <button class="calc-btn" onclick="calValue('+')">+</button>
+  <button class="calc-btn" onclick="calValue('*')">×</button>
+  <button class="calc-btn" onclick="calValue('/')">÷</button>
+  <button class="calc-btn" onclick="calValue('-')">-</button>
+  <button class="calc-btn" onclick="calculateResult()">=</button>
+</div>
+     <script src="app.js"></script>
+   </body>
+ </html>
