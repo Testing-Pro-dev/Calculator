@@ -1,0 +1,29 @@
+body {
+    background: rgba(78, 79, 97, 1);
+}
+.text {
+    text-align: center;
+    margin-top: 0;
+}
+button {
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+#display {
+    height: 140px;
+    width: 270px;
+    border-radius: 15px;
+    font-size: 80px;
+    color: black;
+    margin-left: 40px;
+    background-color: white;
+}
+.cen {
+    margin-left: 40px;
+}
+#equalSign {
+    background-color: #FC951B;
+}
